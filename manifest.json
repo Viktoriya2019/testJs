@@ -1,12 +1,18 @@
- "sap.ui5": {
+{
+  "sap.ui5": {
+	"rootView": "sap.ui.demo.walkthrough.view.App",
+[…]
 	"models": {
-	},
-	"resources": {
-	  "css": [
-		{
-		  "uri": "css/style.css"
+	  "i18n": {
+		"type": "sap.ui.model.resource.ResourceModel",
+		"settings": {
+		  "bundleName": "sap.ui.demo.walkthrough.i18n.i18n"
 		}
-	  ]
+	  },
+	  "invoice": {
+		"type": "sap.ui.model.json.JSONModel",
+		"uri": "Invoices.json"
+	  }
 	}
-
   }
+}
