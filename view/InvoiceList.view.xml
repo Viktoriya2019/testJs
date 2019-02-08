@@ -21,7 +21,7 @@ xmlns:mvc="sap.ui.core.mvc">
 		</Toolbar>
 	</headerToolbar>
 	<items>
-	
+		…
 	</items>
 </List>
 </mvc:View>
